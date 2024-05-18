@@ -23,7 +23,7 @@ const USER_DB_CONNECTION = 'user';
       useFactory: async (configService: ConfigService) => ({
         endpoint: configService.get<string>('azCosmos.endpoint'),
         key: configService.get<string>('azCosmos.key'),
-        dbName: configService.get<string>('azCosmos.dbId1'),
+        dbName: configService.get<string>('azCosmos.dbId4Tenant'),
       }),
       inject: [ConfigService],
     }),
@@ -33,7 +33,7 @@ const USER_DB_CONNECTION = 'user';
       useFactory: async (configService: ConfigService) => ({
         endpoint: configService.get<string>('azCosmos.endpoint'),
         key: configService.get<string>('azCosmos.key'),
-        dbName: configService.get<string>('azCosmos.dbId2'),
+        dbName: configService.get<string>('azCosmos.dbIdr4User'),
       }),
       inject: [ConfigService],
     }),
