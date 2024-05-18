@@ -19,7 +19,7 @@ export class AppService {
     const now = new Date();
     const newTenant = {
       id: uuidv4(),
-      name: 'Acme Corp',
+      name: 'My Tenant',
       createdAt: now,
       updatedAt: now,
     };
@@ -34,7 +34,7 @@ export class AppService {
     const now = new Date();
     const user = {
       id: uuidv4(),
-      name: 'John Doe',
+      name: 'My User',
       createdAt: now,
       updatedAt: now,
     };
