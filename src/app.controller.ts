@@ -1,6 +1,7 @@
 import { Controller, Post } from '@nestjs/common';
 import { AppService } from './app.service';
 import { TenantEntity } from './entities/tenant.entity';
+import { UserEntity } from './entities/user.entity';
 
 @Controller()
 export class AppController {
