@@ -1,7 +1,8 @@
 # r-knm/nestjs-azure-database-multiple-connections-sample
 
 下記の技術記事に関連するコードをアップしたリポジトリです。
-[]()
+
+[NestJSアプリケーションから複数のAzure Cosmos DBへ接続する](https://zenn.dev/logbuild/articles/138820629db049)
 
 ## 起動方法
 
